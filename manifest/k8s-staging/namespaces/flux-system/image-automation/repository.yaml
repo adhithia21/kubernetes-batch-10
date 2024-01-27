@@ -1,0 +1,7 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: product
+spec:
+  image: aditirvan/sample-app-batch-10
+  interval: 1m
