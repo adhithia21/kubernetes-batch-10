@@ -3,5 +3,6 @@ kind: Kustomization
 namespace: tools
 
 resources:
+  - ../../../../module/helm-repository/ww-gitops.yaml
   - namespace.yaml
   - flux-dashboard
